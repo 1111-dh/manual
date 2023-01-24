@@ -15,15 +15,15 @@ Git Hub 명령어
 
 로그 수정
 -------
-git commit --amend --no-edit --date="JAN 23 23:59:00 2022 +0900"
+    git commit --amend --no-edit --date="JAN 23 23:59:00 2022 +0900"
 
-git commit --amend 
+    git commit --amend 
 
-git log
+    it log
 
-git rebase -i
+    git rebase -i
 
-git reabse --continue
+    git reabse --continue
 
-i : insert
-:wq! : 저장 후 종료
+######i : insert
+######:wq! : 저장 후 종료
