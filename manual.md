@@ -25,5 +25,5 @@ Git Hub 명령어
 
     git reabse --continue
 
-######i : insert
-######:wq! : 저장 후 종료
+###### i : insert
+###### :wq! : 저장 후 종료
