@@ -25,6 +25,23 @@
     git rebase -i {log에서 복사한것(branch)}
     git reabse --continue
 
+📌대용량 파일(LFS)
+-------
+설치
+
+    brew install git-lfs
+    
+파일 경로에서
+
+    git lfs install
+    
+    // psd 확장자를 가진 파일들을 LFS로 관리
+    git lfs track "*.psd"
+
+    // 특정 파일을 LFS로 관리
+    git lfs track "images/MainLogo.psd"
+    
+    git add .gitattributes
 🎸기타
 ---
 ###### i : insert
